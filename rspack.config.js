@@ -1,12 +1,11 @@
-const path = require('path')
+const path = require('path');
 
 module.exports = {
-    entry: {
-        main: './src/index.js',
-    },
-    builtins:{
-        html: [{
-            template: './src/index.html'
-        }]
-    }
-}
+  entry: {
+    main: './src/index.js',
+  },
+  output: {
+    filename: 'main.js',
+    path: path.resolve(__dirname, 'dist'),
+  },
+};
