@@ -2,14 +2,15 @@
   "name": "custom_framework",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "rsbuild dev --open",
+    "build": "rsbuild build",
+    "preview": "rsbuild preview"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@rspack/cli": "^0.1.12"
+    "@rsbuild/core": "^0.1.2"
   }
 }
