@@ -1,4 +1,4 @@
-import { mountDOM, h, hFragment } from "../dist/roto-fwk.min.js";
+import { mountDOM, h, hFragment } from "../dist/roto-fwk.mjs";
 
 mountDOM(hFragment([
     h('h1',{ 

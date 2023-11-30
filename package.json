@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "Custom Framework",
   "scripts": {
-    "build": "rollup --config ./rollup.config.mjs"
+    "dev": "vite",
+    "build": "vite build"
   },
   "devDependencies": {
-    "@rollup/plugin-commonjs": "^25.0.7",
-    "rollup-plugin-terser": "^7.0.2"
+    "vite": "^5.0.4"
   }
 }
