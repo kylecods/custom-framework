@@ -7,7 +7,7 @@ mountDOM(hFragment([
         'font-size': '2.5rem',
         'text-align': 'center'
     }
-    }, ['HELLO WORLD']), 
+    }, ['HELLO WORLD!']), 
     h('p',
     {
         style: {
