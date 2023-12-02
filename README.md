@@ -16,7 +16,7 @@ npm install
 npm build
 ```
 
-## Run
+## Running examples
 Change directory to the examples and follow above steps
 One can run the development server using:
 
